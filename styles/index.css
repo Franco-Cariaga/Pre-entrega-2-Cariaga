@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bienvenidos {
+    background-image: url(../img/fondo\ de\ pagina.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.texto1 {
+    margin-top: 20rem ;
+    transition: all;
+    transition-duration: 1s;
+    
+        -webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+                animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    
+}
+
+.footer {
+    padding: 0.1rem;
+    background-color: rgb(62, 123, 238);
+    margin-top: auto;
+    text-align: center;
+    
+}
+
+
+
